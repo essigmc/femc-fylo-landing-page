@@ -1,0 +1,814 @@
+
+/***********Tag Selectors****************/
+nav{
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    height: 50px;
+    float: left;
+    z-index:999;
+}
+nav a{
+    color: black;
+    text-align: center;
+}
+
+nav a:hover{
+    color: #262973;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    padding: 10px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 35px;
+    padding: 10px;
+    color: white;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: .02em
+
+}
+
+h6{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 5px 6px 0;
+    text-align: left;
+    margin: 0;
+    height: 12px;
+    display: block;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    margin: 10px auto;
+    width: 250px;
+    box-sizing: border-box;
+    border: 0.5px solid grey;
+    border-radius: 4px;
+    padding: 10px 0 10px 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+
+
+footer{
+    background-color: #070439;
+    color: white;
+    padding: 30px;
+    padding-bottom: 5px;
+}
+
+
+footer a{
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************Class Selectors***************/
+.logo{
+    float: left;
+    width: 90px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.nav-right a{
+    margin: 20px 15px;
+    text-decoration: none;
+    float: right;
+}
+
+
+
+
+
+
+/*************CONTAINER ONE, HOOK EM***************/
+
+.container-one{
+    padding: 120px 20px 50px;
+    text-align: center;
+}
+
+.illustration-1 {
+    width: 85%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-one p{
+    padding: 0 12px 20px 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+}
+
+.email{
+    padding-left: 15px;
+    text-align: left;
+    color: grey;
+}
+
+.btn{
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #3065F8;
+    color: white;
+    border: none;
+}
+
+.btn:active {
+    background-color: #070439;
+}
+
+
+
+
+
+
+
+
+/****LONESOME CURVE******/
+
+.curve{
+    width: 100%;
+    display: block;
+    padding-top: 30px
+}
+
+
+
+
+
+
+
+
+/**********CONTAINER TWO STAY PRODUCTIVE************/
+
+.container-two{
+    padding: 35px 20px 50px;
+    background-color: #F6F6FE;
+    text-align: center;
+}
+
+.illustration-2 {
+    width: 85%;
+    margin: 0;
+    margin-bottom: 55px;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.details{
+    text-align: left;
+    color: grey;
+}
+
+
+/***LINK TO FEATURES***/
+
+.entice-to-features{
+    border-bottom: 1px solid #3C9F8F;
+    display: inline-block;
+    margin: 17px auto;
+    color: #3C9F8F;
+}
+
+.entice-to-features p{
+    display: inline-block;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+.entice-to-features img{
+    position: relative;
+    top: 4px;
+}
+
+
+/***TESTIMONIAL and or QUOTE****/
+
+.testimonial{
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,0.05);
+    margin: 30px auto;
+    width: 70%;
+    padding: 17px 30px 25px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.fa-quote-left{
+    text-align: left;
+    color: black;
+    font-size: 10px
+}
+
+.testimonial p{
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: .01em;
+}
+
+
+/****GETTING KYLES FACE AND TITLE PERFECT*****/
+
+.testimonial-attribution{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.testimonial-attribution img{
+    border-radius: 100%;
+    height: 30px;
+    display: inline-block;
+}
+
+.testimonial-attribution p{
+    margin: 0;
+    display: block;
+    padding: 0 0 0 6px;
+    font-size: 8px;
+    height: 10px;
+
+}
+
+
+
+
+
+
+
+/*************CONTAINER THREE, AKA EARLY ACCESS OFFER************/
+
+.container-three{
+    background-color: #585989;
+    color: white;
+    text-align: center;
+    padding: 40px 20px 80px 20px;
+    margin-top: -20px;
+}
+
+.container-three p{
+    padding: 0 10px 10px 10px;
+}
+
+.container-three input{
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+/**********FOOTER************/
+
+.bottom-nav-logo{
+    filter: brightness(0) invert(1);
+    padding: 40px 0;
+}
+
+.contact-me a{
+    padding-bottom: 20px;
+    display: block;
+}
+
+.contact-me img{
+    padding-right: 20px;
+}
+
+
+/**LINKS TO MORE PAGES ON WEBSITE**/
+
+.more-pages{
+    display: flex;
+}
+
+.more-pages ul{
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+}
+.more-pages li{
+    padding: 2px 0;
+    margin-left: -38px;
+    margin-right: 50px;
+}
+
+
+/**SOCIAL MEDIA LINKS**/
+
+.social-links{
+    padding: 0;
+    text-align: center;
+}
+
+.list-unstyled{
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline li{
+    display: inline-block;
+    margin: 2px;
+    margin-top: 10px;
+}
+
+.social-icons .fab{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #070439;
+}
+
+.social-icons.icon-circle .fab{
+    border-radius: 100%;
+    background-color: #585989;
+}
+
+.social-icons .fa:hover, .social-icons .fa:active {
+	color: #FFF;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333;
+}
+
+.social-icons.icon-zoom .fab:hover, .social-icons.icon-zoom .fab:active {
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+/******************SCREEN UP**************************/
+/**SMALL DEVICES (PORTRAIT TABLETS and LARGE PHONES, 600px and UP)**/
+
+@media only screen and (min-width: 500px) {
+
+/*********CONTAINER ONE*************/
+    h1{
+        width: 480px;
+        margin: 20px auto;
+        text-align: center;
+
+    }
+    .container-one p{
+        width: 400px;
+        text-align: center;
+        margin: auto;
+        padding: 0 12px 20px;
+    }
+
+    .details{
+        width: 400px;
+        text-align: left;
+        margin: auto;
+        padding: 0 12px 20px;
+    }
+
+    .testimonial{
+        width: 280px
+    }
+
+
+/*********CONTAINER THREE*******/
+
+    .container-three p{
+        width: 400px;
+        text-align: center;
+        margin: auto;
+        padding: 0 12px 20px;
+    }
+
+    .bottom-nav-logo{
+        display: block;
+    }
+    .contact-me{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .more-pages{
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 30px;
+    }
+
+    .more-pages ul{
+        margin-top: 0;
+        vertical-align: top;
+
+    }
+}
+
+
+
+
+
+
+/******************SCREEN UP**************************/
+/**MEDIUM DEVICES (LANDSCAPE TABLETS, 768px and UP)**/
+
+@media only screen and (min-width: 768px) {
+
+    /*********CONTAINER ONE***********/
+
+    .container-one{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container-one .flex-one {
+        order: 1;
+        flex-basis: 35%;
+    }
+
+    .illustration-1{
+        max-width: 50%;
+        margin: 60px auto 0;
+    }
+
+    .container-one .flex-two{
+        order: 2;
+        flex-basis: 65%;
+    }
+
+    h1{
+        text-align: left;
+        width: 370px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .container-one p{
+        text-align: left;
+        width: 330px;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .container-one input{
+        margin-left: 12px;
+    }
+
+
+    /*********CONTAINER 2*********/
+    .curve{
+        content: url("../images/bg-curve-desktop.svg")
+    }
+
+    .container-two{
+        display: flex;
+    }
+
+    .container-two .flex-one{
+        order: 1;
+        flex-basis: 35%
+    }
+
+    .container-two .flex-two{
+        order: 2;
+        flex-basis: 65%
+    }
+
+    .illustration-2{
+        max-width: 50%;
+        height: auto;
+        object-fit: contain;
+        margin: 60px auto 0;
+    }
+
+    .entice-to-features{
+        display: flex;
+        text-align: left;
+        width: 130px;
+        margin-left: 12px;
+        margin-top: 0;
+    }
+
+    .entice-to-features img{
+        position: relative;
+        margin-left: 4px;
+        top: 2px;
+    }
+
+    .testimonial{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    h3{
+        text-align: left;
+        width: 370px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        font-size: 20px;
+    }
+
+    .details{
+        text-align: left;
+        width: 330px;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: 5px;
+    }
+
+
+    /********CONTAINER THREE*********/
+    .container-three{
+        display: flex;
+    }
+
+    .container-three .flex-one{
+        text-align: left;
+        padding-left: 12px;
+        order: 1;
+        flex-basis: 50%
+    }
+
+    .container-three p{
+        text-align: left;
+        padding-left: 0;
+        margin-left: 12px;
+        width: 330px;
+    }
+
+    .container-three .flex-two{
+        order: 2;
+        margin-left: 20px;
+        margin-top: 27px;
+        flex-basis: 50%
+    }
+
+    input{
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .email-for-dark{
+        width: 350px;
+    }
+
+
+
+
+    /*****FOOTER******/
+
+    .flex{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-me{
+        order: 1;
+        flex-basis: 33.3%;
+    }
+
+    .more-pages{
+        order: 1;
+        flex-basis: 37.3%;
+        margin: 0;
+    }
+
+      .social-links{
+          order: 1;
+          vertical-align: top;
+          flex-basis: 29.3%;
+
+      }
+
+      .social-icons .fab{
+          margin-top: 0;
+          vertical-align: top;
+      }
+}
+
+
+/******************SCREEN UP**************************/
+/**LARGE DEVICES (LAPTOPS/DESKTOPS, 992px and UP)**/
+
+@media only screen and (min-width: 992px) {
+
+    /******NAVIGATION*******/
+    nav {
+        font-size: 18px;
+        height: 80px;
+        float: left;
+        z-index:999;
+    }
+
+    .logo{
+        float: left;
+        width: 140px;
+        margin-top: 21px;
+        margin-left: 30px;
+    }
+
+    .nav-right a{
+        margin: 30px 30px;
+        text-decoration: none;
+        float: right;
+    }
+
+
+    /******CONTAINER ONE**********/
+
+    .container-one .flex-one {
+        flex-basis: 55%;
+    }
+
+    .container-one .flex-two{
+        flex-basis: 45%;
+    }
+
+    h1{
+        text-align: left;
+        width: 420px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-top: 70px;
+    }
+
+    .container-one p{
+        text-align: left;
+        width: 400px;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .container-one input{
+        width: 300px;
+    }
+
+    .container-one form{
+        margin-top: 20px;
+    }
+
+
+    /****CONTAINER TWO****/
+    .container-two .flex-two{
+        order: 2;
+        flex-basis: 45%
+    }
+
+    .container-two .flex-one{
+        order: 1;
+        flex-basis: 55%
+    }
+
+    .illustration-2{
+        max-width: 45%;
+        height: auto;
+        object-fit: contain;
+        margin: 10px auto 0;
+    }
+
+    h3{
+        text-align: left;
+        width: 440px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        font-size: 25px;
+    }
+
+    .details{
+        width: 390px;
+    }
+
+    .entice-to-features{
+        width: 135px;
+    }
+
+    .entice-to-features img{
+        height: 20px;
+    }
+
+    .testimonial{
+        width: 228px;
+    }
+
+    /*****CONTAINER THREE********/
+    .container-three p{
+        width: 400px;
+    }
+
+    .email-for-dark{
+        width: 380px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .bg-curve {content:url("images/bg-curve-desktop.svg")}
+}
+
+
+.attribution { font-size: 11px; text-align: center; color: #585989; padding-top: 10px; }
+.attribution a { color: #3E52A3; }
